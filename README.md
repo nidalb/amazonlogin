@@ -1,10 +1,12 @@
-npm install
+1-http://webdriver.io/guide/getstarted/install.html
+
+2-npm install
 
 
-node test.js
+3-node test.js
 
 
-curl -X POST \
+4- curl -X POST \
   http://localhost:3000/ \
   -H 'content-type: application/json' \
   -d '{"username":"email", "password":"password"}'
